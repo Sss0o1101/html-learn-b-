@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.container {
+    display: flex;
+}
+
+.item {
+    /* width: 100px;
+    height: 100px; */
+    color: #6e5904;
+    background-color: #ecbbb7;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+
+}
