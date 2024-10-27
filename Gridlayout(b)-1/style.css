@@ -47,11 +47,49 @@
     display: grid;
     grid-template-columns: 200px 200px 200px;
     gap: 10px;
+
     border: 1px dotted #000;
     margin-bottom: 30px;
 }
 
 .item3 {
+    background-color: rgb(125, 133, 181);
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* fr (子要素の横幅を均等にする) 1fr 1fr 1fr ---------------------------------------*/
+
+.container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+}
+
+.item4 {
+    background-color: rgb(125, 133, 181);
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* grid-template-rows (子要素の縦幅) ---------------------------------------*/
+
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 100px 100px ;
+
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+}
+
+.item5 {
     background-color: rgb(125, 133, 181);
     color: #fff;
     padding: 10px;
