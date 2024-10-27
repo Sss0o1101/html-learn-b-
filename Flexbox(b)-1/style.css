@@ -5,9 +5,6 @@
 
 
 
-
-
-
 /* flex-direction  ---------------------------------------*/
 
 .container1 {
@@ -16,6 +13,9 @@
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
+
+    border: 1px dotted #000;
+    margin-bottom: 30px;
 }
 
 .item1 {
@@ -39,6 +39,9 @@
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
 
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+
 }
 
 .item2 {
@@ -49,6 +52,7 @@
     margin: 10px;
     padding: 10px;
     border: 1px solid #000;
+
 }
 
 
@@ -65,11 +69,38 @@
     /* justify-content: space-around; */
     /* justify-content: space-evenly; */
 
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+
 }
 
 .item3 {
     color: #3c59b0;
     background-color: #bc77c7;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+
+/* align-items (垂直方向の揃え) ---------------------------------------------*/
+
+.container4 {
+    display: flex;
+    align-items: stretch;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+
+    height: 300px;
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+}
+
+.item4 {
+    color: #075f09;
+    background-color: #f1e176;
     margin: 10px;
     padding: 10px;
     border: 1px solid #000;
