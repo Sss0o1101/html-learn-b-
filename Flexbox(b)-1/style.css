@@ -105,3 +105,30 @@
     padding: 10px;
     border: 1px solid #000;
 }
+
+
+/* align-content (複数行の垂直方向の揃え) ---------------------------------------------*/
+
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+
+    height: 600px;
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+    }
+
+.item5 {
+    color: #0f8e11;
+    background-color: #f3d13b;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
