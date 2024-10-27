@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* border: 1px dotted #000; */
+
+
+/* display: grid; ---------------------------------------*/
+
+.container1 {
+    display: grid;
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+
+}
+
+.item1 {
+    background-color: rgb(134, 190, 190);
+    color: #fff;
+    padding: 10px;
+
+}
+
+
+
+/* grid-template-columns (子要素の横幅) ---------------------------------------*/
+
+.container2 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+
+}
+
+.item2 {
+    background-color: rgb(129, 167, 185);
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+
+/* gap (子要素間の余白) ---------------------------------------*/
+
+.container3 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+    border: 1px dotted #000;
+    margin-bottom: 30px;
+}
+
+.item3 {
+    background-color: rgb(125, 133, 181);
+    color: #fff;
+    padding: 10px;
+}
