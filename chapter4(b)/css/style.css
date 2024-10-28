@@ -2,7 +2,7 @@
 
  /* border: 1px dotted #000; */
 
-/* 共通部分 */
+/* 共通部分 -------------------------------*/
 html {
     font-size: 100%;
 }
@@ -23,14 +23,14 @@ image {
 
 
 
-/* layout */
+/* layout  -------------------------------*/
 .align-center {
     text-align: center;
 }
 
 
 
-/* 見出し */
+/* 見出し  -------------------------------*/
 .font-english {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
@@ -38,7 +38,7 @@ image {
 
 
 
-/* header */
+/* header -------------------------------*/
 .page-header {
     padding-top: .5rem;
 }
@@ -65,7 +65,7 @@ image {
 
 
 
-/* header cover 画像 */
+/* header cover 画像  -------------------------------*/
 .cover{
     background-size: cover;
     background-position: center bottom;
@@ -77,7 +77,7 @@ image {
 }
 
 
-/* 見出し */
+/* 見出し  -------------------------------*/
 /* .font-english {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
@@ -92,7 +92,7 @@ image {
 }
 
 
-/* section */
+/* section  -------------------------------*/
 .heading-large {
     font-size: 3rem;
     text-align: center;
@@ -131,20 +131,28 @@ image {
 
 
 
-/* footer */
+/* footer  -------------------------------*/
+.page-footer {
+    background-image: url(../images/footer-s.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+}
+
 .info {
    width: 100%;
    max-width: 544px;
    margin: auto;
    padding: 0 1.5rem;
    border-spacing: 0;
-   border: 1px dotted #000;
+   /* border: 1px dotted #000; */
 }
 
 .info th {
     text-align: left;
     font-weight: normal;
     padding: 1rem;
+    border-bottom: 1px solid #c9c2bc;
 }
 
 .info td {
