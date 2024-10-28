@@ -160,3 +160,11 @@ image {
     padding: 1rem;
     /* border: 1px dotted #000; */
 }
+
+.copyrigft {
+    background-color: #432;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: #fff;
+}
