@@ -96,7 +96,7 @@ image {
 .heading-large {
     font-size: 3rem;
     text-align: center;
-    border: 1px dotted #000;
+    /* border: 1px dotted #000; */
     margin-bottom: 1rem;
 }
 
@@ -104,7 +104,7 @@ image {
     max-width: 736px;
     padding: 4rem;
     margin: 3rem auto 0;
-    border: 1px dotted #000;
+    /* border: 1px dotted #000; */
 
 }
 
@@ -121,9 +121,34 @@ image {
     color: #fff;
     border-radius: 8px;
     padding: .75rem 1.5rem;
+    transition: .5s;
     /* border: 1px dotted #000; */
 
 }
 .btn:hover {
     background-color: #0090aa;
+}
+
+
+
+/* footer */
+.info {
+   width: 100%;
+   max-width: 544px;
+   margin: auto;
+   padding: 0 1.5rem;
+   border-spacing: 0;
+   border: 1px dotted #000;
+}
+
+.info th {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+    padding: 1rem;
+    /* border: 1px dotted #000; */
 }
