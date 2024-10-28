@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
+ /* border: 1px dotted #000; */
+
 /* 共通部分 */
 html {
     font-size: 100%;
 }
 
 body {
-    font-family: "Hiragino Kaku Gothic ProN","Hiragino Sans", "BIZ UDPGothic",sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
     line-height: 1.7;
     color: #432;
 }
@@ -20,9 +22,16 @@ image {
 }
 
 
-/* レイアウト */
+/* layout */
 .align-center {
     text-align: center;
+}
+
+
+/* 見出し */
+.font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
 }
 
 
@@ -33,4 +42,31 @@ image {
 
 .logo {
     width: 210px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+
+
+/* 見出し */
+/* .font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+} */
+
+.page-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+    /* border: 1px dotted #000; */
 }
