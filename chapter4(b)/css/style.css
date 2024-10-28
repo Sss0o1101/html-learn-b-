@@ -22,10 +22,12 @@ image {
 }
 
 
+
 /* layout */
 .align-center {
     text-align: center;
 }
+
 
 
 /* 見出し */
@@ -33,6 +35,7 @@ image {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
 }
+
 
 
 /* header */
@@ -52,8 +55,25 @@ image {
     list-style: none;
 
 }
+
+.main-nav a {
+    color: #432;
+}
 .main-nav a:hover {
     color: #0bd;
+}
+
+
+
+/* header cover 画像 */
+.cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+
+.cover-home {
+    background-image: url(../images/cover-home-s.webp);
 }
 
 
@@ -68,5 +88,42 @@ image {
     text-align: center;
     margin-top: 2rem;
     line-height: 1.4;
+    border: 1px dotted #000;
+}
+
+
+/* section */
+.heading-large {
+    font-size: 3rem;
+    text-align: center;
+    border: 1px dotted #000;
+    margin-bottom: 1rem;
+}
+
+.about {
+    max-width: 736px;
+    padding: 4rem;
+    margin: 3rem auto 0;
+    border: 1px dotted #000;
+
+}
+
+.about p {
+    margin-bottom: 3rem;
+    /* text-align: center; */
     /* border: 1px dotted #000; */
+}
+
+.btn {
+    display: inline-block;  /* ボタンなどに使う */
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+    /* border: 1px dotted #000; */
+
+}
+.btn:hover {
+    background-color: #0090aa;
 }
