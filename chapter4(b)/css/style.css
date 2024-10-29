@@ -22,14 +22,6 @@ image {
 }
 
 
-.wrapper {
-    max-width: 1120px;
-    margin: auto;
-    padding: 0 1.5rem;
-}
-
-
-
 /* layout  -------------------------------*/
 .wrapper {
     max-width: 1120px;
@@ -44,10 +36,10 @@ image {
 
 
 /* 見出し  -------------------------------*/
-.font-english {
+/* .font-english {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
-}
+} */
 
 
 
@@ -91,10 +83,10 @@ image {
 
 
 /* 見出し  -------------------------------*/
-/* .font-english {
+.font-english {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
-} */
+}
 
 .page-title {
     font-size: 3rem;
@@ -109,8 +101,8 @@ image {
 .heading-large {
     font-size: 3rem;
     text-align: center;
-    /* border: 1px dotted #000; */
     margin-bottom: 1rem;
+    /* border: 1px dotted #000; */
 }
 
 .about {
@@ -127,6 +119,8 @@ image {
     /* border: 1px dotted #000; */
 }
 
+
+/* ボタン */
 .btn {
     display: inline-block;  /* ボタンなどに使う */
     font-size: 1.5rem;
@@ -139,7 +133,8 @@ image {
 
 }
 .btn:hover {
-    background-color: #0090aa;
+    /* background-color: #0090aa; */
+    translate: 10px;
 }
 
 
