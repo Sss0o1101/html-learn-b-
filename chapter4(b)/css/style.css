@@ -22,7 +22,7 @@ image {
 }
 
 
-/* layout  -------------------------------*/
+/* レイアウト -------------------------------*/
 .wrapper {
     max-width: 1120px;
     margin: auto;
@@ -34,16 +34,29 @@ image {
 }
 
 
-
 /* 見出し  -------------------------------*/
-/* .font-english {
+.font-english {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
-} */
+}
+
+.page-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+    /* border: 1px dotted #000; */
+}
+
+.heading-large {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    /* border: 1px dotted #000; */
+}
 
 
-
-/* header -------------------------------*/
+/* ヘッダー -------------------------------*/
 .page-header {
     padding-top: .5rem;
 }
@@ -70,39 +83,17 @@ image {
 
 
 
-/* header cover 画像  -------------------------------*/
+/* ヘッダーカバー 画像  -------------------------------*/
 .cover{
     background-size: cover;
     background-position: center bottom;
     height: 800px;
 }
 
+
+/* HOME ------------------------------- */
 .cover-home {
     background-image: url(../images/cover-home-s.webp);
-}
-
-
-/* 見出し  -------------------------------*/
-.font-english {
-    font-family: 'Philosopher', sans-serif;
-    font-weight: normal;
-}
-
-.page-title {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 2rem;
-    line-height: 1.4;
-    /* border: 1px dotted #000; */
-}
-
-
-/* section  -------------------------------*/
-.heading-large {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 1rem;
-    /* border: 1px dotted #000; */
 }
 
 .about {
@@ -169,7 +160,7 @@ image {
     /* border: 1px dotted #000; */
 }
 
-.copyrigft {
+.copyright {
     background-color: #432;
     text-align: center;
     padding: 2rem 0;
@@ -190,7 +181,7 @@ image {
         font-size: 4rem;
     }
 
-    /* header */
+    /* ヘッダー */
     .page-header {
         display: flex;
         justify-content: space-between;
@@ -210,10 +201,6 @@ image {
 
     .about {
         margin: 4rem auto 0;
-    }
-
-    .info th {
-        padding-left: 2.5rem;
     }
 
     /* フッター */
