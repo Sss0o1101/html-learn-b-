@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+ /* border: 1px dotted #000; */
+
 /* 共通部分
 ------------------------------- */
 html {
@@ -114,6 +116,13 @@ img {
     height: 800px;
 }
 
+.sub-cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+    border: 1px dotted #000;
+}
 
 
 /* HOME
@@ -130,6 +139,13 @@ img {
 
 .about p {
     margin-bottom: 3rem;
+}
+
+
+/* News
+------------------------------- */
+.cover-news {
+    background-image: url(../images/cover-news-s.webp);
 }
 
 
@@ -151,19 +167,23 @@ img {
     border-spacing: 0;
 }
 
+/*
 .info th,
 .info td {
     border-bottom: 1px solid #c9c2bc;
 }
+*/
 
 .info th {
     text-align: left;
     font-weight: normal;
     padding: 1rem;
+    border-bottom: 1px solid #c9c2bc
 }
 
 .info td {
     padding: 1rem 0;
+    border-bottom: 1px solid #c9c2bc
 }
 
 .copyright {
