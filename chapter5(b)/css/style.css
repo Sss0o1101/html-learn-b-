@@ -20,7 +20,10 @@ img {
     max-width: 100%;
 }
 
-/* レイアウト */
+
+
+/* レイアウト
+-------------------------------*/
 .wrapper {
     max-width: 1120px;
     margin: auto;
@@ -32,7 +35,10 @@ img {
 }
 
 
-/* 見出し */
+
+
+/* 見出し
+-------------------------------*/
 .font-english {
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
@@ -52,6 +58,8 @@ img {
 .heading-large {
     margin-bottom: 1rem;
 }
+
+
 
 /* ボタン */
 .btn {
@@ -97,6 +105,7 @@ img {
 }
 
 
+
 /* ヘッダーカバー画像
 ------------------------------- */
 .cover {
@@ -104,6 +113,7 @@ img {
     background-position: center bottom;
     height: 800px;
 }
+
 
 
 /* HOME
@@ -121,6 +131,7 @@ img {
 .about p {
     margin-bottom: 3rem;
 }
+
 
 
 /* フッター
@@ -162,6 +173,8 @@ img {
     margin-top: 6rem;
     color: #fff;
 }
+
+
 
 /* デスクトップ版
 ------------------------------- */
