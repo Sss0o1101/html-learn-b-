@@ -149,6 +149,12 @@ img {
     background-image: url(../images/cover-news-s.webp);
 }
 
+/* .news-contents {
+    display: flex;
+    justify-content: space-between;
+} */
+
+
 /* 記事部分
 ------------------------------- */
 .post {
@@ -232,10 +238,6 @@ img {
 .side-menu a:hover {
     color: #0bd;
 }
-
-
-
-
 
 
 /* フッター
@@ -329,6 +331,19 @@ img {
     /* NEWS */
     .cover-news {
         background-image: url(../images/cover-news-l.webp);
+    }
+
+    .news-contents {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .post {
+        width: 70%;
+    }
+
+    .sidebar {
+        width: 22%;
     }
 
     /* フッター */
