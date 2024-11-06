@@ -213,14 +213,25 @@ img {
     list-style: none;
     text-align: center;
     margin-bottom: 4rem;
+    /* border: 1px dotted #000; */
 }
 
 .side-menu li {
     border-bottom: 1px solid #c9c2bc;
+    /* border: 1px dotted red; */
 }
 
+.side-menu a {
+    color: #432;
+    display: block;
+    padding: 40px;
+    /* background-color: #0bd; */
+    /* border: 1px dotted red; */
+}
 
-
+.side-menu a:hover {
+    color: #0bd;
+}
 
 
 
