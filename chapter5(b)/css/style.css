@@ -122,7 +122,7 @@ img {
     background-position: center bottom;
     height: 528px;
     margin-bottom: 4rem;
-    border: 1px dotted #000;
+    /* border: 1px dotted #000; */
 }
 
 
@@ -312,7 +312,10 @@ img {
     }
 
     /* ヘッダーカバー画像 */
-    
+    .sub-cover {
+        height: 400px;
+        margin-bottom: 6rem;
+    }
 
     /* HOME */
     .cover-home {
@@ -323,6 +326,10 @@ img {
         margin: 4rem auto 0;
     }
 
+    /* NEWS */
+    .cover-news {
+        background-image: url(../images/cover-news-l.webp);
+    }
 
     /* フッター */
     .page-footer {
