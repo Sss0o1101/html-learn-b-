@@ -296,6 +296,10 @@ img {
         font-size: 4rem;
     }
 
+    .post-title {
+        font-size: 2rem;
+    }
+
     /* ヘッダー */
     .page-header {
         display: flex;
@@ -306,6 +310,9 @@ img {
     .main-nav {
         font-size: 2rem;
     }
+
+    /* ヘッダーカバー画像 */
+    
 
     /* HOME */
     .cover-home {
