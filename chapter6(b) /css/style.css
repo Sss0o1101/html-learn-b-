@@ -380,6 +380,16 @@ img {
         gap: 3rem 2rem;
     }
 
+    .item img {
+        margin-bottom: .5rem;
+        /* border: 1px dotted #000; */
+    }
+
+    .item p {
+        font-size: 1rem;
+        /* color: #0bd; */
+    }
+
     /* フッター */
     .page-footer {
         background-image: url(../images/footer-l.webp);
