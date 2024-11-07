@@ -168,8 +168,15 @@ img {
     text-align: center;
 }
 
+.item img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+}
 
-
+.item p {
+    font-size: .875rem;
+}
 
 /* 記事部分
 ------------------------------- */
