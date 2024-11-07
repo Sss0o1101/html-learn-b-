@@ -161,6 +161,13 @@ img {
     background-image: url(../images/cover-menu-s.webp);
 }
 
+.grid {
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
 
 
 
